@@ -1,12 +1,8 @@
-let isEmailCorrect = true;
-let isOTPcorrect = false;
+for (let i = 1; i <= 4; i++) {
+    let row = "";
 
-if (isEmailCorrect) {
-    if (isOTPcorrect) {
-        console.log("Login Success");
-    } else {
-        console.log("Incorrect OTP");
+    for (let j = 1; j <= 4; j++) {
+        row += "*"
     }
-} else {
-    console.log("Email Incorrect");
+    console.log(row);
 }
