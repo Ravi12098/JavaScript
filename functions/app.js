@@ -23,3 +23,11 @@ function isAdult() {
 }
 
 isAdult();
+
+// function with arguments
+
+function printInfo(name, age) {
+    console.log(name, age);   
+}
+
+printInfo("Ravi", 21);
