@@ -31,3 +31,15 @@ function printInfo(name, age) {
 }
 
 printInfo("Ravi", 21);
+
+function multipleGreet(func, count) {
+    for(let i=1; i<=count; i++) {
+        func();
+    }
+}
+
+let greet = function() {
+    console.log("hello");
+}
+
+multipleGreet(greet, 5);
