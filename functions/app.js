@@ -43,3 +43,28 @@ let greet = function() {
 }
 
 multipleGreet(greet, 5);
+
+// this 
+
+const student = {
+    name: "ravi",
+    age: 21,
+    eng: 40,
+    math: 46,
+    phy: 34,
+    getAvg() {
+        console.log(this);
+        let avg = (this.eng + this.math + this>this.phy) / 3;
+        console.log(`${this.name} got avg marks = ${avg}`);
+    }
+}
+
+function getAvg() {
+    console.log(this);
+}
+
+// arrow functions
+
+const sum = (a, b) => {
+    console.log(a + b);
+};
