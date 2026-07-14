@@ -8,3 +8,6 @@ console.dir(document.querySelectorAll("div a"));
 let para = document.querySelector("p");
 
 para.classList.add("info");
+
+let nav = document.querySelector("h2");
+nav.classList.add("nav");

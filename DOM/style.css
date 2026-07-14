@@ -30,3 +30,8 @@ body {
 .info {
   background-color: rgb(117, 149, 160);
 }
+
+.nav {
+  background-color: blueviolet;
+  color: black;
+}
